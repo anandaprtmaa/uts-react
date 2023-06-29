@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
-import Header from "./components/header";
+import Header from "./components/Header";
 
 export default function App() {
   const [shoes, setShoes] = useState([
