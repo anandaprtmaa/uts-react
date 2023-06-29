@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&family=Montserrat:wght@400;700&family=Poppins:ital,wght@1,500&family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  > #root{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    >main{
+      overflow-y: scroll;
+      
+      >main{
+      padding: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+    
+      }
+    }
+    
+    >.dialog{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 8px black;
+    }
+    
+  }
+
+}
+
+.card{
+  background-color: #F5F5F5;
+  border-radius: 35px;
+  padding: 10px;
+}

@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #F2EAD3;
+    color: black;
+    margin-top: auto;
+    margin-bottom: 0px;
+
+}
